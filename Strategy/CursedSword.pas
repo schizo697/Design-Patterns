@@ -1,0 +1,37 @@
+unit CursedSword;
+
+interface
+
+uses
+  SwordIntf;
+
+type
+  TCursedSword = class(TInterfacedObject, ISword)
+  public
+    function GetDamage: Integer;
+    function GetEffect: string;
+    function GetDescription: string;
+  end;
+
+implementation
+
+
+
+{ TCursedSword }
+
+function TCursedSword.GetDamage: Integer;
+begin
+  Result := 5;
+end;
+
+function TCursedSword.GetDescription: string;
+begin
+  Result := 'Cursed Sword';
+end;
+
+function TCursedSword.GetEffect: string;
+begin
+  Result := 'Curse Effect - Curses the target';
+end;
+
+end.
