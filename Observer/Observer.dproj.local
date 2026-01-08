@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2026/01/08 21:36:20.370,C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\Observer.dproj=C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2026/01/08 21:50:21.791,=C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2026/01/08 21:50:36.869,C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\ObsIntf.pas=C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2026/01/08 21:50:50.445,C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\AccountIntf.pas=C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\ObsIntf.pas</Transaction>
+    <Transaction>2026/01/08 21:52:57.301,C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\Design Patterns\Observer Pattern\AccountIntf.pas=C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\AccountIntf.pas</Transaction>
+    <Transaction>2026/01/08 21:53:05.791,C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\Design Patterns\Observer Pattern\Observer.dproj=C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\Observer.dproj</Transaction>
+    <Transaction>2026/01/08 21:53:18.361,=C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\Design Patterns\Observer Pattern\Unit1.pas</Transaction>
+    <Transaction>2026/01/08 21:53:26.761,C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\Design Patterns\Observer Pattern\ObsCoin.pas=C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\Design Patterns\Observer Pattern\Unit1.pas</Transaction>
+    <Transaction>2026/01/08 22:03:55.668,=C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\Design Patterns\Observer Pattern\Unit1.pas</Transaction>
+    <Transaction>2026/01/08 22:04:03.872,C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\Design Patterns\Observer Pattern\Account.pas=C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\Design Patterns\Observer Pattern\Unit1.pas</Transaction>
+    <Transaction>2026/01/08 22:30:51.075,C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Observer\Observer.dproj=C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\Design Patterns\Observer Pattern\Observer.dproj</Transaction>
+  </Transactions>
+</BorlandProject>
