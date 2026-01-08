@@ -1,0 +1,132 @@
+program Decorator;
+
+{$APPTYPE CONSOLE}
+
+uses
+  SysUtils,
+  WeaponIntf in 'WeaponIntf.pas',
+  Sword in 'Sword.pas',
+  Spear in 'Spear.pas',
+  WeaponDecorator in 'WeaponDecorator.pas',
+  FireAspect in 'FireAspect.pas',
+  CurseAspect in 'CurseAspect.pas',
+  DivineAspect in 'DivineAspect.pas';
+
+var
+  Weapon: IWeapon;
+  Choice: Integer;
+  WeaponConfirmed: Boolean;
+
+procedure ShowWeaponMenu;
+begin
+  Writeln;
+  Writeln('=== Select Weapon ===');
+  Writeln('1. Sword');
+  Writeln('2. Spear');
+  Writeln('3. Back');
+  Write('Choose: ');
+end;
+
+procedure ShowDecoratorMenu;
+begin
+  Writeln;
+  Writeln('=== Weapon Decorator Menu ===');
+  Writeln('1. Add Fire Aspect');
+  Writeln('2. Add Curse Aspect');
+  Writeln('3. Add Divine Aspect');
+  Writeln('4. Display Weapon Info');
+  Writeln('5. Change Weapon');
+  Writeln('6. Exit');
+  Write('Choose: ');
+end;
+
+begin
+  Randomize;
+  Weapon := nil;
+  WeaponConfirmed := False;
+
+  repeat
+    ShowWeaponMenu;
+    Readln(Choice);
+
+    case Choice of
+      1: Weapon := TSword.Create;
+      2: Weapon := TSpear.Create;
+      3: Weapon := nil;
+    end;
+
+    if Assigned(Weapon) then
+    begin
+      Writeln;
+      Writeln('You selected:');
+      Weapon.Display;
+      WeaponConfirmed := True;
+    end;
+
+  until WeaponConfirmed;
+
+  repeat
+    ShowDecoratorMenu;
+    Readln(Choice);
+
+    case Choice of
+      1:
+        if Assigned(Weapon) then
+        begin
+          Weapon := TFireAspect.Create(Weapon);
+          Writeln('Fire Aspect added.');
+        end
+        else
+          Writeln('Select a weapon first!');
+      2:
+        if Assigned(Weapon) then
+        begin
+          Weapon := TCurseAspect.Create(Weapon);
+          Writeln('Curse Aspect added.');
+        end
+        else
+          Writeln('Select a weapon first!');
+      3:
+        if Assigned(Weapon) then
+        begin
+          Weapon := TDivineAspect.Create(Weapon);
+          Writeln('Divine Aspect added.');
+        end
+        else
+          Writeln('Select a weapon first!');
+      4:
+        if Assigned(Weapon) then
+          Weapon.Display
+        else
+          Writeln('Select a weapon first!');
+      5:
+        begin
+          Weapon := nil;
+          WeaponConfirmed := False;
+
+          repeat
+            ShowWeaponMenu;
+            Readln(Choice);
+
+            case Choice of
+              1: Weapon := TSword.Create;
+              2: Weapon := TSpear.Create;
+              3: Weapon := nil;
+            end;
+
+            if Assigned(Weapon) then
+            begin
+              Writeln;
+              Writeln('You selected:');
+              Weapon.Display;
+              WeaponConfirmed := True;
+            end;
+
+          until WeaponConfirmed;
+        end;
+    end;
+
+  until Choice = 6;
+
+end.
+

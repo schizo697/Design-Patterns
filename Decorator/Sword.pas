@@ -1,0 +1,44 @@
+unit Sword;
+
+interface
+
+uses
+  WeaponIntf, SysUtils;
+
+type
+  TSword = class(TInterfacedObject, IWeapon)
+  private
+    FBaseDamage: Integer;
+  public
+    constructor Create;
+    function GetDamage: Integer;
+    function GetDescription: string;
+    procedure Display;
+  end;
+
+implementation
+
+{ TSword }
+
+constructor TSword.Create;
+begin
+  FBaseDamage := 10;
+end;
+
+procedure TSword.Display;
+begin
+  Writeln('Weapon ', GetDescription);
+  Writeln('Damage ', GetDamage);
+end;
+
+function TSword.GetDamage: Integer;
+begin
+  Result := FBaseDamage;
+end;
+
+function TSword.GetDescription: string;
+begin
+  Result := 'Iron Sword';
+end;
+
+end.

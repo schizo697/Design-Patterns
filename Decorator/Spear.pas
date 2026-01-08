@@ -1,0 +1,44 @@
+unit Spear;
+
+interface
+
+uses
+  WeaponIntf, SysUtils;
+
+type
+  TSpear = class(TInterfacedObject, IWeapon)
+  private
+    FBaseDamage: Integer;
+  public
+    constructor Create;
+    function GetDamage: Integer;
+    function GetDescription: string;
+    procedure Display;
+  end;
+
+implementation
+
+{ TSpear }
+
+constructor TSpear.Create;
+begin
+  FBaseDamage := 10;
+end;
+
+procedure TSpear.Display;
+begin
+  Writeln('Weapon ', GetDescription);
+  Writeln('Damage ', GetDamage);
+end;
+
+function TSpear.GetDamage: Integer;
+begin
+  Result := FBaseDamage;
+end;
+
+function TSpear.GetDescription: string;
+begin
+  Result := 'Steel Spear';
+end;
+
+end.

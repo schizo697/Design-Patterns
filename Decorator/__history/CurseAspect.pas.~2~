@@ -1,0 +1,36 @@
+unit CurseAspect;
+
+interface
+
+uses
+  WeaponDecorator, WeaponIntf;
+
+type
+  TCurseAspect = class(TWeaponDecorator)
+  public
+    function GetDamage: Integer; override;
+    function GetDescription: string; override;
+    procedure Display; override;
+  end;
+
+implementation
+
+{ TCurseAspect }
+
+procedure TCurseAspect.Display;
+begin
+  Writeln('Weapon ', GetDescription);
+  Writeln('Damage ', GetDamage);
+end;
+
+function TCurseAspect.GetDamage: Integer;
+begin
+  Result := FWeapon.GetDamage + 5;
+end;
+
+function TCurseAspect.GetDescription: string;
+begin
+  Result := FWeapon.GetDescription + ' + Curse Aspect';
+end;
+
+end.

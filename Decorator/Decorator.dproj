@@ -1,15 +1,15 @@
 ﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
     <PropertyGroup>
-        <ProjectGuid>{F4E56439-8EF9-4761-9857-4A0101646F0E}</ProjectGuid>
+        <ProjectGuid>{2283D991-9185-4A73-8995-89824B0A0028}</ProjectGuid>
         <ProjectVersion>20.1</ProjectVersion>
         <FrameworkType>None</FrameworkType>
         <Base>True</Base>
         <Config Condition="'$(Config)'==''">Debug</Config>
         <Platform Condition="'$(Platform)'==''">Win32</Platform>
-        <ProjectName Condition="'$(ProjectName)'==''">Observer</ProjectName>
+        <ProjectName Condition="'$(ProjectName)'==''">Decorator</ProjectName>
         <TargetedPlatforms>1</TargetedPlatforms>
         <AppType>Console</AppType>
-        <MainSource>Observer.dpr</MainSource>
+        <MainSource>Decorator.dpr</MainSource>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Config)'=='Base' or '$(Base)'!=''">
         <Base>true</Base>
@@ -59,7 +59,7 @@
         <DCC_F>false</DCC_F>
         <DCC_K>false</DCC_K>
         <DCC_Namespace>System;Xml;Data;Datasnap;Web;Soap;$(DCC_Namespace)</DCC_Namespace>
-        <SanitizedProjectName>Observer</SanitizedProjectName>
+        <SanitizedProjectName>Decorator</SanitizedProjectName>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Base_Android)'!=''">
         <Android_LauncherIcon36>$(BDS)\bin\Artwork\Android\FM_LauncherIcon_36x36.png</Android_LauncherIcon36>
@@ -158,9 +158,13 @@
         <DelphiCompile Include="$(MainSource)">
             <MainSource>MainSource</MainSource>
         </DelphiCompile>
-        <DCCReference Include="AccountIntf.pas"/>
-        <DCCReference Include="ObsCoin.pas"/>
-        <DCCReference Include="Account.pas"/>
+        <DCCReference Include="WeaponIntf.pas"/>
+        <DCCReference Include="Sword.pas"/>
+        <DCCReference Include="Spear.pas"/>
+        <DCCReference Include="WeaponDecorator.pas"/>
+        <DCCReference Include="FireAspect.pas"/>
+        <DCCReference Include="CurseAspect.pas"/>
+        <DCCReference Include="DivineAspect.pas"/>
         <BuildConfiguration Include="Base">
             <Key>Base</Key>
         </BuildConfiguration>
@@ -179,7 +183,7 @@
         <BorlandProject>
             <Delphi.Personality>
                 <Source>
-                    <Source Name="MainSource">Observer.dpr</Source>
+                    <Source Name="MainSource">Decorator.dpr</Source>
                 </Source>
             </Delphi.Personality>
             <Deployment Version="4">
@@ -198,9 +202,9 @@
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
-                <DeployFile LocalName="Win32\Debug\Observer.exe" Configuration="Debug" Class="ProjectOutput">
+                <DeployFile LocalName="Win32\Debug\Decorator.exe" Configuration="Debug" Class="ProjectOutput">
                     <Platform Name="Win32">
-                        <RemoteName>Observer.exe</RemoteName>
+                        <RemoteName>Decorator.exe</RemoteName>
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>

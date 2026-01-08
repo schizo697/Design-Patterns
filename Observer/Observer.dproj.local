@@ -12,5 +12,8 @@
     <Transaction>2026/01/08 22:03:55.668,=C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\Design Patterns\Observer Pattern\Unit1.pas</Transaction>
     <Transaction>2026/01/08 22:04:03.872,C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\Design Patterns\Observer Pattern\Account.pas=C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\Design Patterns\Observer Pattern\Unit1.pas</Transaction>
     <Transaction>2026/01/08 22:30:51.075,C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Observer\Observer.dproj=C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\Design Patterns\Observer Pattern\Observer.dproj</Transaction>
+    <Transaction>2026/01/08 22:31:15.332,C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Observer\Account.pas=C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\Design Patterns\Observer Pattern\Account.pas</Transaction>
+    <Transaction>2026/01/08 22:31:30.946,C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Observer\AccountIntf.pas=C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\Design Patterns\Observer Pattern\AccountIntf.pas</Transaction>
+    <Transaction>2026/01/08 22:31:39.203,C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Observer\ObsCoin.pas=C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\Design Patterns\Observer Pattern\ObsCoin.pas</Transaction>
   </Transactions>
 </BorlandProject>

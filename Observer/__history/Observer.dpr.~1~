@@ -6,9 +6,9 @@ program Observer;
 
 uses
   System.SysUtils,
-  AccountIntf in 'AccountIntf.pas',
-  ObsCoin in 'ObsCoin.pas',
-  Account in 'Account.pas';
+  AccountIntf in '..\..\..\..\Documents\Embarcadero\Studio\Projects\Design Patterns\Observer Pattern\AccountIntf.pas',
+  ObsCoin in '..\..\..\..\Documents\Embarcadero\Studio\Projects\Design Patterns\Observer Pattern\ObsCoin.pas',
+  Account in '..\..\..\..\Documents\Embarcadero\Studio\Projects\Design Patterns\Observer Pattern\Account.pas';
 
 begin
   Randomize;
