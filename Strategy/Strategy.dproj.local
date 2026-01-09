@@ -31,5 +31,10 @@
     <Transaction>2026/01/09 11:28:53.719,C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Strategy\Sword.pas=C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Strategy\Unit1.pas</Transaction>
     <Transaction>2026/01/09 11:29:26.477,=C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Strategy\Unit1.pas</Transaction>
     <Transaction>2026/01/09 11:29:29.234,C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Strategy\Spear.pas=C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Strategy\Unit1.pas</Transaction>
+    <Transaction>2026/01/09 11:34:20.168,=C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Strategy\Unit1.pas</Transaction>
+    <Transaction>2026/01/09 11:34:25.332,C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Strategy\SpinAttackBehavior.pas=C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Strategy\Unit1.pas</Transaction>
+    <Transaction>2026/01/09 11:35:13.773,=C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Strategy\Unit1.pas</Transaction>
+    <Transaction>2026/01/09 11:35:29.919,C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Strategy\PiercingThrustAttackBehavior.pas=C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Strategy\Unit1.pas</Transaction>
+    <Transaction>2026/01/09 11:35:40.958,C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Strategy\PiercingThrustBehavior.pas=C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Strategy\PiercingThrustAttackBehavior.pas</Transaction>
   </Transactions>
 </BorlandProject>

@@ -1,0 +1,23 @@
+unit SpinAttackBehavior;
+
+interface
+
+uses
+  AttackBehaviorIntf;
+
+type
+  TSpinAttack = class(TInterfacedObject, IAttackBehavior)
+  public
+    function Attack: string;
+  end;
+
+implementation
+
+{ TSpinAttack }
+
+function TSpinAttack.Attack: string;
+begin
+  Result := 'Performing Spin Attack';
+end;
+
+end.

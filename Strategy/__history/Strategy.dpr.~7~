@@ -46,8 +46,7 @@ begin
   else if Weapon is TSpear then
   begin
     WriteLn('1. Stab');
-    WriteLn('2. Slash');
-    WriteLn('3. Piercing Thrust');
+    WriteLn('2. Piercing Thrust');
   end;
   Write('Choice: ');
 end;
@@ -94,10 +93,10 @@ begin
         Choice := -1;
 
       case Choice of
-        1:
+        1: // Attack
           Weapon.PerformAttack;
 
-        2:
+        2: // Change behavior
         begin
           ShowBehaviorMenu(Weapon);
           ReadLn(Input);
@@ -117,15 +116,14 @@ begin
           begin
             case Choice of
               1: Weapon.SetAttackBehavior(TStabBehavior.Create);
-              2: Weapon.SetAttackBehavior(TSlashBehavior.Create);
-              3: Weapon.SetAttackBehavior(TPiercingThrustBehavior.Create);
+              2: Weapon.SetAttackBehavior(TPiercingThrustBehavior.Create);
             else
               WriteLn('Invalid behavior for Spear!');
             end;
           end;
         end;
 
-        3:
+        3: // Change weapon
         begin
           Weapon.Free;
           Weapon := nil;

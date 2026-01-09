@@ -95,6 +95,8 @@
         <DCCReference Include="Spear.pas"/>
         <DCCReference Include="SlashBehavior.pas"/>
         <DCCReference Include="StabBehavior.pas"/>
+        <DCCReference Include="SpinAttackBehavior.pas"/>
+        <DCCReference Include="PiercingThrustBehavior.pas"/>
         <BuildConfiguration Include="Base">
             <Key>Base</Key>
         </BuildConfiguration>

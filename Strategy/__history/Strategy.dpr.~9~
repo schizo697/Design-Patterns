@@ -94,10 +94,10 @@ begin
         Choice := -1;
 
       case Choice of
-        1:
+        1: // Attack
           Weapon.PerformAttack;
 
-        2:
+        2: // Change behavior
         begin
           ShowBehaviorMenu(Weapon);
           ReadLn(Input);
@@ -125,7 +125,7 @@ begin
           end;
         end;
 
-        3:
+        3: // Change weapon
         begin
           Weapon.Free;
           Weapon := nil;
