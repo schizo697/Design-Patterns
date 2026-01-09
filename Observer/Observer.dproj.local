@@ -1,19 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
-  <Transactions>
-    <Transaction>2026/01/08 21:36:20.370,C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\Observer.dproj=C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
-    <Transaction>2026/01/08 21:50:21.791,=C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2026/01/08 21:50:36.869,C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\ObsIntf.pas=C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2026/01/08 21:50:50.445,C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\AccountIntf.pas=C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\ObsIntf.pas</Transaction>
-    <Transaction>2026/01/08 21:52:57.301,C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\Design Patterns\Observer Pattern\AccountIntf.pas=C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\AccountIntf.pas</Transaction>
-    <Transaction>2026/01/08 21:53:05.791,C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\Design Patterns\Observer Pattern\Observer.dproj=C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\Observer.dproj</Transaction>
-    <Transaction>2026/01/08 21:53:18.361,=C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\Design Patterns\Observer Pattern\Unit1.pas</Transaction>
-    <Transaction>2026/01/08 21:53:26.761,C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\Design Patterns\Observer Pattern\ObsCoin.pas=C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\Design Patterns\Observer Pattern\Unit1.pas</Transaction>
-    <Transaction>2026/01/08 22:03:55.668,=C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\Design Patterns\Observer Pattern\Unit1.pas</Transaction>
-    <Transaction>2026/01/08 22:04:03.872,C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\Design Patterns\Observer Pattern\Account.pas=C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\Design Patterns\Observer Pattern\Unit1.pas</Transaction>
-    <Transaction>2026/01/08 22:30:51.075,C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Observer\Observer.dproj=C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\Design Patterns\Observer Pattern\Observer.dproj</Transaction>
-    <Transaction>2026/01/08 22:31:15.332,C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Observer\Account.pas=C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\Design Patterns\Observer Pattern\Account.pas</Transaction>
-    <Transaction>2026/01/08 22:31:30.946,C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Observer\AccountIntf.pas=C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\Design Patterns\Observer Pattern\AccountIntf.pas</Transaction>
-    <Transaction>2026/01/08 22:31:39.203,C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Observer\ObsCoin.pas=C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\Design Patterns\Observer Pattern\ObsCoin.pas</Transaction>
+	<Transactions>
+    <Transaction>2026/01/08 21:36:20.000.370,C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\Observer.dproj=C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2026/01/08 21:50:21.000.791,=C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2026/01/08 21:50:36.000.869,C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\ObsIntf.pas=C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2026/01/08 21:50:50.000.445,C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\AccountIntf.pas=C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\ObsIntf.pas</Transaction>
+    <Transaction>2026/01/08 21:52:57.000.301,C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\Design Patterns\Observer Pattern\AccountIntf.pas=C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\AccountIntf.pas</Transaction>
+    <Transaction>2026/01/08 21:53:05.000.791,C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\Design Patterns\Observer Pattern\Observer.dproj=C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\Observer.dproj</Transaction>
+    <Transaction>2026/01/08 21:53:18.000.361,=C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\Design Patterns\Observer Pattern\Unit1.pas</Transaction>
+    <Transaction>2026/01/08 21:53:26.000.761,C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\Design Patterns\Observer Pattern\ObsCoin.pas=C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\Design Patterns\Observer Pattern\Unit1.pas</Transaction>
+    <Transaction>2026/01/08 22:03:55.000.668,=C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\Design Patterns\Observer Pattern\Unit1.pas</Transaction>
+    <Transaction>2026/01/08 22:04:03.000.872,C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\Design Patterns\Observer Pattern\Account.pas=C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\Design Patterns\Observer Pattern\Unit1.pas</Transaction>
+    <Transaction>2026/01/08 22:30:51.000.075,C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Observer\Observer.dproj=C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\Design Patterns\Observer Pattern\Observer.dproj</Transaction>
+    <Transaction>2026/01/08 22:31:15.000.332,C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Observer\Account.pas=C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\Design Patterns\Observer Pattern\Account.pas</Transaction>
+    <Transaction>2026/01/08 22:31:30.000.946,C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Observer\AccountIntf.pas=C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\Design Patterns\Observer Pattern\AccountIntf.pas</Transaction>
+    <Transaction>2026/01/08 22:31:39.000.203,C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Observer\ObsCoin.pas=C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\Design Patterns\Observer Pattern\ObsCoin.pas</Transaction>
   </Transactions>
 </BorlandProject>

@@ -1,0 +1,35 @@
+unit ToyotaCar;
+
+interface
+
+uses
+  Car;
+
+type
+  TToyotaCar = class(TCar)
+  public
+    function GetBrand: string; override;
+    function GetModel: string; override;
+    function GetPrice: Double; override;
+  end;
+
+implementation
+
+{ TToyotaCar }
+
+function TToyotaCar.GetBrand: string;
+begin
+  Result := 'Toyota';
+end;
+
+function TToyotaCar.GetModel: string;
+begin
+  Result := 'Supra';
+end;
+
+function TToyotaCar.GetPrice: Double;
+begin
+  Result := 20000;
+end;
+
+end.

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
-  <Transactions/>
-  <Default.Personality>
-    <Projects ActiveProject="C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Strategy\Strategy.dproj"/>
-  </Default.Personality>
+	<Transactions/>
+	<Default.Personality>
+		<Projects ActiveProject="C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Decorator\Decorator.dproj"/>
+	</Default.Personality>
 </BorlandProject>
