@@ -4,142 +4,133 @@ program Strategy;
 
 uses
   SysUtils,
-  SwordIntf in 'SwordIntf.pas',
-  SwordBase in 'SwordBase.pas',
-  CursedSword in 'CursedSword.pas',
-  DivineSword in 'DivineSword.pas',
-  NatureSword in 'NatureSword.pas';
+  WeaponBase in 'WeaponBase.pas',
+  Sword in 'Sword.pas',
+  Spear in 'Spear.pas',
+  SlashBehavior in 'SlashBehavior.pas',
+  StabBehavior in 'StabBehavior.pas';
 
-procedure DisplayMenu;
+procedure ShowWeaponMenu;
 begin
   WriteLn;
-  WriteLn('========== SWORD MENU ==========');
-  WriteLn('1. View Current Sword');
-  WriteLn('2. Switch to Cursed Sword');
-  WriteLn('3. Switch to Divine Sword');
-  WriteLn('4. Switch to Nature Sword');
-  WriteLn('5. Compare All Swords');
+  WriteLn('===== SELECT WEAPON =====');
+  WriteLn('1. Sword');
+  WriteLn('2. Spear');
   WriteLn('0. Exit');
-  WriteLn('================================');
-  Write('Choose an option: ');
+  Write('Choice: ');
 end;
 
-procedure CompareAllSwords;
-var
-  CursedSwordObj, DivineSwordObj, NatureSwordObj: TSword;
+procedure ShowActionMenu;
 begin
   WriteLn;
-  WriteLn('===== COMPARING ALL SWORDS =====');
+  WriteLn('===== ACTION MENU =====');
+  WriteLn('1. Attack');
+  WriteLn('2. Change Attack Behavior');
+  WriteLn('3. Change Weapon');
+  WriteLn('0. Exit');
+  Write('Choice: ');
+end;
+
+procedure ShowBehaviorMenu;
+begin
   WriteLn;
-
-  CursedSwordObj := TSword.Create(TCursedSword.Create);
-  DivineSwordObj := TSword.Create(TDivineSword.Create);
-  NatureSwordObj := TSword.Create(TNatureSword.Create);
-
-  try
-    CursedSwordObj.DisplayInfo;
-    DivineSwordObj.DisplayInfo;
-    NatureSwordObj.DisplayInfo;
-  finally
-    CursedSwordObj.Free;
-    DivineSwordObj.Free;
-    NatureSwordObj.Free;
-  end;
+  WriteLn('===== ATTACK BEHAVIOR =====');
+  WriteLn('1. Slash');
+  WriteLn('2. Stab');
+  Write('Choice: ');
 end;
 
 var
-  CurrentSword: TSword;
+  Weapon: TWeapon;
   Choice: Integer;
-  InputStr: string;
+  Input: string;
   Running: Boolean;
 
 begin
-  CurrentSword := nil;
-  try
-    WriteLn('===== SWORD STRATEGY PATTERN - INTERACTIVE =====');
-    WriteLn;
-    WriteLn('Welcome, Warrior! Choose your sword wisely.');
+  Weapon := nil;
+  Running := True;
 
+  WriteLn('=== WEAPON SYSTEM ===');
 
-    CurrentSword := TSword.Create(TCursedSword.Create);
-    WriteLn;
-    WriteLn('You currently wield the Cursed Sword!');
-
-    Running := True;
-
-    while Running do
+  while Running do
+  begin
+    if Weapon = nil then
     begin
-      DisplayMenu;
-      ReadLn(InputStr);
+      ShowWeaponMenu;
+      ReadLn(Input);
 
-
-      if not TryStrToInt(InputStr, Choice) then
+      if not TryStrToInt(Input, Choice) then
         Choice := -1;
 
       case Choice of
         1:
-        begin
-          WriteLn;
-          WriteLn('===== YOUR CURRENT SWORD =====');
-          WriteLn;
-          CurrentSword.DisplayInfo;
-        end;
+          Weapon := TSword.Create(TSlashBehavior.Create);
+        2:
+          Weapon := TSpear.Create(TStabBehavior.Create);
+        0:
+          Running := False;
+      else
+        WriteLn('Invalid choice!');
+      end;
+
+      if Weapon <> nil then
+        WriteLn('Weapon selected: ', Weapon.GetName);
+    end
+    else
+    begin
+      ShowActionMenu;
+      ReadLn(Input);
+
+      if not TryStrToInt(Input, Choice) then
+        Choice := -1;
+
+      case Choice of
+        1:
+          Weapon.PerformAttack;
 
         2:
         begin
-          CurrentSword.Free;
-          CurrentSword := TSword.Create(TCursedSword.Create);
-          WriteLn;
-          WriteLn('You have switched to the Cursed Sword!');
-          CurrentSword.DisplayInfo;
+          ShowBehaviorMenu;
+          ReadLn(Input);
+
+          if not TryStrToInt(Input, Choice) then
+            Choice := -1;
+
+          case Choice of
+            1:
+            begin
+              Weapon.SetAttackBehavior(TSlashBehavior.Create);
+              WriteLn('Attack behavior changed to SLASH.');
+            end;
+            2:
+            begin
+              Weapon.SetAttackBehavior(TStabBehavior.Create);
+              WriteLn('Attack behavior changed to STAB.');
+            end;
+          else
+            WriteLn('Invalid behavior choice!');
+          end;
         end;
 
         3:
         begin
-          CurrentSword.Free;
-          CurrentSword := TSword.Create(TDivineSword.Create);
-          WriteLn;
-          WriteLn('You have switched to the Divine Sword!');
-          CurrentSword.DisplayInfo;
-        end;
-
-        4:
-        begin
-          CurrentSword.Free;
-          CurrentSword := TSword.Create(TNatureSword.Create);
-          WriteLn;
-          WriteLn('You have switched to the Nature Sword!');
-          CurrentSword.DisplayInfo;
-        end;
-
-        5:
-        begin
-          CompareAllSwords;
+          Weapon.Free;
+          Weapon := nil;
         end;
 
         0:
-        begin
-          WriteLn;
-          WriteLn('Thank you for using the Sword Strategy Pattern!');
-          WriteLn('May your blade strike true!');
           Running := False;
-        end;
-
       else
-        WriteLn;
-        WriteLn('Invalid option! Please choose 0-5.');
+        WriteLn('Invalid option!');
       end;
     end;
-
-    if Assigned(CurrentSword) then
-      CurrentSword.Free;
-
-  except
-    on E: Exception do
-    begin
-      WriteLn('Error: ', E.Message);
-      if Assigned(CurrentSword) then
-        CurrentSword.Free;
-    end;
   end;
+
+  if Assigned(Weapon) then
+    Weapon.Free;
+
+  WriteLn;
+  WriteLn('Exiting... May your strikes be true!');
+  ReadLn;
 end.
+

@@ -1,0 +1,42 @@
+unit AMGFactory;
+
+interface
+
+uses
+  CarFactory, Engine, Transmission, Wheels, Interior, AMGEngine,
+  AMGTransmission, AMGWheels, AMGInterior;
+
+type
+  TAMGFactory = class(TInterfacedObject, ICarFactory)
+  public
+    function CreateEngine: TEngine;
+    function CreateTransmission: TTransmission;
+    function CreateWheels: TWheels;
+    function CreateInterior: TInterior;
+  end;
+
+implementation
+
+{ TAMGFactory }
+
+function TAMGFactory.CreateEngine: TEngine;
+begin
+  Result := TAMGEngine.Create;
+end;
+
+function TAMGFactory.CreateInterior: TInterior;
+begin
+  Result := TAMGInterior.Create;
+end;
+
+function TAMGFactory.CreateTransmission: TTransmission;
+begin
+  Result := TAMGTransmission.Create;
+end;
+
+function TAMGFactory.CreateWheels: TWheels;
+begin
+  Result := TAMGWheels.Create;
+end;
+
+end.

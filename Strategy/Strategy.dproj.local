@@ -1,17 +1,35 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
 	<Transactions>
-    <Transaction>2026/01/08 16:20:01.000.167,C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\Strategy.dproj</Transaction>
-    <Transaction>2026/01/08 16:20:29.000.202,C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\Strategy.dproj=C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Strategy\Strategy.dproj</Transaction>
+    <Transaction>2026/01/08 16:20:01.000.167,C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\Strategy.dproj=C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2026/01/08 16:20:29.000.202,C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Strategy\Strategy.dproj=C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\Strategy.dproj</Transaction>
     <Transaction>2026/01/08 20:59:36.000.808,=C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Strategy\Unit1.pas</Transaction>
-    <Transaction>2026/01/08 20:59:47.000.149,C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Strategy\SwordIntf.pas=C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Strategy\Unit1.pas</Transaction>
+    <Transaction>2026/01/08 20:59:47.000.149,C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Strategy\Unit1.pas=C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Strategy\SwordIntf.pas</Transaction>
     <Transaction>2026/01/08 21:00:59.000.851,=C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Strategy\Unit1.pas</Transaction>
-    <Transaction>2026/01/08 21:01:05.000.963,C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Strategy\SwordBase.pas=C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Strategy\Unit1.pas</Transaction>
+    <Transaction>2026/01/08 21:01:05.000.963,C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Strategy\Unit1.pas=C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Strategy\SwordBase.pas</Transaction>
     <Transaction>2026/01/08 21:10:46.000.679,=C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Strategy\Unit1.pas</Transaction>
-    <Transaction>2026/01/08 21:11:21.000.136,C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Strategy\CursedSword.pas=C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Strategy\Unit1.pas</Transaction>
+    <Transaction>2026/01/08 21:11:21.000.136,C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Strategy\Unit1.pas=C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Strategy\CursedSword.pas</Transaction>
     <Transaction>2026/01/08 21:14:36.000.044,=C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Strategy\Unit1.pas</Transaction>
-    <Transaction>2026/01/08 21:14:43.000.729,C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Strategy\DivineSword.pas=C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Strategy\Unit1.pas</Transaction>
+    <Transaction>2026/01/08 21:14:43.000.729,C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Strategy\Unit1.pas=C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Strategy\DivineSword.pas</Transaction>
     <Transaction>2026/01/08 21:16:08.000.615,=C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Strategy\Unit1.pas</Transaction>
-    <Transaction>2026/01/08 21:16:16.000.599,C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Strategy\NatureSword.pas=C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Strategy\Unit1.pas</Transaction>
+    <Transaction>2026/01/08 21:16:16.000.599,C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Strategy\Unit1.pas=C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Strategy\NatureSword.pas</Transaction>
+    <Transaction>2026/01/09 11:22:28.582,C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Strategy\CursedSword.pas=</Transaction>
+    <Transaction>2026/01/09 11:22:28.648,C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Strategy\DivineSword.pas=</Transaction>
+    <Transaction>2026/01/09 11:22:28.699,C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Strategy\NatureSword.pas=</Transaction>
+    <Transaction>2026/01/09 11:22:28.748,C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Strategy\SwordBase.pas=</Transaction>
+    <Transaction>2026/01/09 11:22:28.750,C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Strategy\SwordIntf.pas=</Transaction>
+    <Transaction>2026/01/09 11:22:43.499,=C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Strategy\Unit1.pas</Transaction>
+    <Transaction>2026/01/09 11:23:09.688,C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Strategy\AttachBehaviorIntf.pas=C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Strategy\Unit1.pas</Transaction>
+    <Transaction>2026/01/09 11:23:18.518,C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Strategy\AttackBehaviorIntf.pas=C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Strategy\AttachBehaviorIntf.pas</Transaction>
+    <Transaction>2026/01/09 11:23:43.446,=C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Strategy\Unit1.pas</Transaction>
+    <Transaction>2026/01/09 11:23:51.368,C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Strategy\SlashBehavior.pas=C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Strategy\Unit1.pas</Transaction>
+    <Transaction>2026/01/09 11:24:48.725,=C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Strategy\Unit1.pas</Transaction>
+    <Transaction>2026/01/09 11:24:53.858,C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Strategy\StabBehavior.pas=C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Strategy\Unit1.pas</Transaction>
+    <Transaction>2026/01/09 11:25:46.857,=C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Strategy\Unit1.pas</Transaction>
+    <Transaction>2026/01/09 11:25:50.047,C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Strategy\WeaponBase.pas=C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Strategy\Unit1.pas</Transaction>
+    <Transaction>2026/01/09 11:28:51.340,=C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Strategy\Unit1.pas</Transaction>
+    <Transaction>2026/01/09 11:28:53.719,C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Strategy\Sword.pas=C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Strategy\Unit1.pas</Transaction>
+    <Transaction>2026/01/09 11:29:26.477,=C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Strategy\Unit1.pas</Transaction>
+    <Transaction>2026/01/09 11:29:29.234,C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Strategy\Spear.pas=C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Strategy\Unit1.pas</Transaction>
   </Transactions>
 </BorlandProject>

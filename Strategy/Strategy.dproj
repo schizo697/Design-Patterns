@@ -90,11 +90,11 @@
         <DelphiCompile Include="$(MainSource)">
             <MainSource>MainSource</MainSource>
         </DelphiCompile>
-        <DCCReference Include="SwordIntf.pas"/>
-        <DCCReference Include="SwordBase.pas"/>
-        <DCCReference Include="CursedSword.pas"/>
-        <DCCReference Include="DivineSword.pas"/>
-        <DCCReference Include="NatureSword.pas"/>
+        <DCCReference Include="WeaponBase.pas"/>
+        <DCCReference Include="Sword.pas"/>
+        <DCCReference Include="Spear.pas"/>
+        <DCCReference Include="SlashBehavior.pas"/>
+        <DCCReference Include="StabBehavior.pas"/>
         <BuildConfiguration Include="Base">
             <Key>Base</Key>
         </BuildConfiguration>
