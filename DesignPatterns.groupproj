@@ -12,7 +12,7 @@
         <Projects Include="Decorator\Decorator.dproj">
             <Dependencies/>
         </Projects>
-        <Projects Include="Factory Method\FactoryMethod.dproj">
+        <Projects Include="FactoryMethod\FactoryMethod.dproj">
             <Dependencies/>
         </Projects>
     </ItemGroup>
@@ -51,13 +51,13 @@
         <MSBuild Projects="Decorator\Decorator.dproj" Targets="Make"/>
     </Target>
     <Target Name="FactoryMethod">
-        <MSBuild Projects="Factory Method\FactoryMethod.dproj"/>
+        <MSBuild Projects="FactoryMethod\FactoryMethod.dproj"/>
     </Target>
     <Target Name="FactoryMethod:Clean">
-        <MSBuild Projects="Factory Method\FactoryMethod.dproj" Targets="Clean"/>
+        <MSBuild Projects="FactoryMethod\FactoryMethod.dproj" Targets="Clean"/>
     </Target>
     <Target Name="FactoryMethod:Make">
-        <MSBuild Projects="Factory Method\FactoryMethod.dproj" Targets="Make"/>
+        <MSBuild Projects="FactoryMethod\FactoryMethod.dproj" Targets="Make"/>
     </Target>
     <Target Name="Build">
         <CallTarget Targets="Strategy;Observer;Decorator;FactoryMethod"/>
