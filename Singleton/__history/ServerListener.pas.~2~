@@ -1,0 +1,96 @@
+unit ServerListener;
+
+interface
+
+uses
+  SysUtils, Classes, SyncObjs, IdTCPServer, IdContext, Generics.Collections, Device;
+
+type
+  TServerListener = class
+  private
+    class var FInstance: TServerListener;
+    class var FLock: TCriticalSection;
+
+    FTCPServer: TIdTCPServer;
+    FDevices: TList<TDevice>;
+
+    constructor CreatePrivate;
+
+    procedure OnConnect(AContext: TIdContext);
+    procedure OnDisconnect(AContext: TIdContext);
+    procedure OnExecute(AContext: TIdContext);
+
+  public
+    class function Instance: TServerListener;
+
+    procedure Start(APort: Integer);
+    procedure Stop;
+
+    procedure AddDevice(const AName: string);
+    procedure DisconnectDevice(const AName: string);
+    procedure ListDevices;
+
+    destructor Destroy; override;
+  end;
+
+implementation
+
+{ TServerListener }
+
+procedure TServerListener.AddDevice(const AName: string);
+begin
+
+end;
+
+constructor TServerListener.CreatePrivate;
+begin
+
+end;
+
+destructor TServerListener.Destroy;
+begin
+
+  inherited;
+end;
+
+procedure TServerListener.DisconnectDevice(const AName: string);
+begin
+
+end;
+
+class function TServerListener.Instance: TServerListener;
+begin
+
+end;
+
+procedure TServerListener.ListDevices;
+begin
+
+end;
+
+procedure TServerListener.OnConnect(AContext: TIdContext);
+begin
+
+end;
+
+procedure TServerListener.OnDisconnect(AContext: TIdContext);
+begin
+
+end;
+
+procedure TServerListener.OnExecute(AContext: TIdContext);
+begin
+
+end;
+
+procedure TServerListener.Start(APort: Integer);
+begin
+
+end;
+
+procedure TServerListener.Stop;
+begin
+
+end;
+
+end.

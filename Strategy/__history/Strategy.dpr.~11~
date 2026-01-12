@@ -142,7 +142,7 @@ begin
     Weapon.Free;
 
   WriteLn;
-  WriteLn('Exiting...');
+  WriteLn('Exiting... May your strikes be true!');
   ReadLn;
 end.
 

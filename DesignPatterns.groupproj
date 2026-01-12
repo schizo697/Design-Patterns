@@ -15,6 +15,15 @@
         <Projects Include="FactoryMethod\FactoryMethod.dproj">
             <Dependencies/>
         </Projects>
+        <Projects Include="AbstractFactory\AbstractFactory.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Singleton\Singleton.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Command\Command.dproj">
+            <Dependencies/>
+        </Projects>
     </ItemGroup>
     <ProjectExtensions>
         <Borland.Personality>Default.Personality.12</Borland.Personality>
@@ -59,14 +68,41 @@
     <Target Name="FactoryMethod:Make">
         <MSBuild Projects="FactoryMethod\FactoryMethod.dproj" Targets="Make"/>
     </Target>
+    <Target Name="AbstractFactory">
+        <MSBuild Projects="AbstractFactory\AbstractFactory.dproj"/>
+    </Target>
+    <Target Name="AbstractFactory:Clean">
+        <MSBuild Projects="AbstractFactory\AbstractFactory.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="AbstractFactory:Make">
+        <MSBuild Projects="AbstractFactory\AbstractFactory.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Singleton">
+        <MSBuild Projects="Singleton\Singleton.dproj"/>
+    </Target>
+    <Target Name="Singleton:Clean">
+        <MSBuild Projects="Singleton\Singleton.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Singleton:Make">
+        <MSBuild Projects="Singleton\Singleton.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Command">
+        <MSBuild Projects="Command\Command.dproj"/>
+    </Target>
+    <Target Name="Command:Clean">
+        <MSBuild Projects="Command\Command.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Command:Make">
+        <MSBuild Projects="Command\Command.dproj" Targets="Make"/>
+    </Target>
     <Target Name="Build">
-        <CallTarget Targets="Strategy;Observer;Decorator;FactoryMethod"/>
+        <CallTarget Targets="Strategy;Observer;Decorator;FactoryMethod;AbstractFactory;Singleton;Command"/>
     </Target>
     <Target Name="Clean">
-        <CallTarget Targets="Strategy:Clean;Observer:Clean;Decorator:Clean;FactoryMethod:Clean"/>
+        <CallTarget Targets="Strategy:Clean;Observer:Clean;Decorator:Clean;FactoryMethod:Clean;AbstractFactory:Clean;Singleton:Clean;Command:Clean"/>
     </Target>
     <Target Name="Make">
-        <CallTarget Targets="Strategy:Make;Observer:Make;Decorator:Make;FactoryMethod:Make"/>
+        <CallTarget Targets="Strategy:Make;Observer:Make;Decorator:Make;FactoryMethod:Make;AbstractFactory:Make;Singleton:Make;Command:Make"/>
     </Target>
     <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
 </Project>
