@@ -1,23 +1,23 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
 	<Transactions>
-    <Transaction>2026/01/08 23:33:06.000.267,C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\Decorator.dproj=C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
-    <Transaction>2026/01/08 23:33:26.000.900,C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Decorator\Decorator.dproj=C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\Decorator.dproj</Transaction>
+    <Transaction>2026/01/08 23:33:06.000.267,C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\Decorator.dproj</Transaction>
+    <Transaction>2026/01/08 23:33:26.000.900,C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\Decorator.dproj=C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Decorator\Decorator.dproj</Transaction>
     <Transaction>2026/01/08 23:33:37.000.057,=C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Decorator\Unit1.pas</Transaction>
-    <Transaction>2026/01/08 23:33:45.000.198,C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Decorator\WeaponIntf.pas=C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Decorator\Unit1.pas</Transaction>
+    <Transaction>2026/01/08 23:33:45.000.198,C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Decorator\Unit1.pas=C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Decorator\WeaponIntf.pas</Transaction>
     <Transaction>2026/01/08 23:34:37.000.778,=C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Decorator\Unit1.pas</Transaction>
-    <Transaction>2026/01/08 23:34:45.000.343,C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Decorator\Sword.pas=C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Decorator\Unit1.pas</Transaction>
+    <Transaction>2026/01/08 23:34:45.000.343,C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Decorator\Unit1.pas=C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Decorator\Sword.pas</Transaction>
     <Transaction>2026/01/08 23:37:17.000.178,=C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Decorator\Unit1.pas</Transaction>
-    <Transaction>2026/01/08 23:37:23.000.650,C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Decorator\Spearpas.pas=C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Decorator\Unit1.pas</Transaction>
-    <Transaction>2026/01/08 23:37:43.000.548,C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Decorator\Spear.pas=C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Decorator\Spearpas.pas</Transaction>
+    <Transaction>2026/01/08 23:37:23.000.650,C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Decorator\Unit1.pas=C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Decorator\Spearpas.pas</Transaction>
+    <Transaction>2026/01/08 23:37:43.000.548,C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Decorator\Spearpas.pas=C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Decorator\Spear.pas</Transaction>
     <Transaction>2026/01/08 23:39:48.000.098,=C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Decorator\Unit1.pas</Transaction>
-    <Transaction>2026/01/08 23:39:58.000.478,C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Decorator\WeaponDecorator.pas=C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Decorator\Unit1.pas</Transaction>
+    <Transaction>2026/01/08 23:39:58.000.478,C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Decorator\Unit1.pas=C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Decorator\WeaponDecorator.pas</Transaction>
     <Transaction>2026/01/08 23:42:59.000.688,=C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Decorator\Unit1.pas</Transaction>
-    <Transaction>2026/01/08 23:43:04.000.898,C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Decorator\FireAspect.pas=C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Decorator\Unit1.pas</Transaction>
+    <Transaction>2026/01/08 23:43:04.000.898,C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Decorator\Unit1.pas=C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Decorator\FireAspect.pas</Transaction>
     <Transaction>2026/01/08 23:47:09.000.746,=C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Decorator\Unit1.pas</Transaction>
-    <Transaction>2026/01/08 23:47:17.000.323,C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Decorator\CurseAspect.pas=C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Decorator\Unit1.pas</Transaction>
+    <Transaction>2026/01/08 23:47:17.000.323,C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Decorator\Unit1.pas=C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Decorator\CurseAspect.pas</Transaction>
     <Transaction>2026/01/08 23:50:57.000.920,=C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Decorator\Unit1.pas</Transaction>
-    <Transaction>2026/01/08 23:51:03.000.090,C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Decorator\DivineAspect.pas=C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Decorator\Unit1.pas</Transaction>
+    <Transaction>2026/01/08 23:51:03.000.090,C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Decorator\Unit1.pas=C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Decorator\DivineAspect.pas</Transaction>
   </Transactions>
 	<ProjectSortOrder AutoSort="0" SortType="0">
     <File Path="Spear.pas"/>

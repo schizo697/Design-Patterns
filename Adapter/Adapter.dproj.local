@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2026/01/13 08:19:19.000.305,C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\Adapter.dproj</Transaction>
+    <Transaction>2026/01/13 08:19:52.000.283,=C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2026/01/13 08:37:00.000.051,C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\EUChargerIntf.pas</Transaction>
+    <Transaction>2026/01/13 08:38:02.000.109,C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\EUChargerIntf.pas=C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Adapter\EUChargerIntf.pas</Transaction>
+    <Transaction>2026/01/13 08:38:04.000.579,C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\Adapter.dproj=C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Adapter\Adapter.dproj</Transaction>
+    <Transaction>2026/01/13 08:38:12.000.151,=C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Adapter\Unit1.pas</Transaction>
+    <Transaction>2026/01/13 08:38:16.000.603,C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Adapter\Unit1.pas=C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Adapter\UKOutlet.pas</Transaction>
+    <Transaction>2026/01/13 08:38:52.000.096,=C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Adapter\Unit1.pas</Transaction>
+    <Transaction>2026/01/13 08:39:04.000.210,C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Adapter\Unit1.pas=C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Adapter\UKToEUAdapter.pas</Transaction>
+    <Transaction>2026/01/13 08:39:59.000.206,=C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Adapter\Unit1.pas</Transaction>
+    <Transaction>2026/01/13 08:40:02.000.305,C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Adapter\Unit1.pas=C:\Users\ASINC-RD008\Desktop\Github\DesignPattern\Adapter\Laptop.pas</Transaction>
+  </Transactions>
+</BorlandProject>

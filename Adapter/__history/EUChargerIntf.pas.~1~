@@ -1,0 +1,12 @@
+unit EUChargerIntf;
+
+interface
+
+type
+  TEUCharger = interface
+    procedure PlugIntoEUSocket;
+  end;
+
+implementation
+
+end.
