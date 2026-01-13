@@ -1,0 +1,16 @@
+/AbstractFactory/Win32/Debug
+/AbstractFactory/Win32
+/Lib/Win32/Debug
+/Bin/Win32/Debug
+/Source/FactoryMethod/__history
+/Source/AbstractFactory/__history
+/Source/AbstractFactory/AMGProducts/__history
+/Source/AbstractFactory/CarFactories/__history
+/Source/Adapter/__history
+/Source/Command/__history
+/Source/Decorator/__history
+/Source/Decorator/Win32/Debug
+/Source/Facade/__history
+/Source/Observer/__history
+/Source/Singleton/__history
+/Source/Strategy/__history

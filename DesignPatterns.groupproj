@@ -3,31 +3,31 @@
         <ProjectGuid>{032887D9-2FEB-4E13-BBBA-E9297B7E295E}</ProjectGuid>
     </PropertyGroup>
     <ItemGroup>
-        <Projects Include="Strategy\Strategy.dproj">
+        <Projects Include="Source\Strategy\Strategy.dproj">
             <Dependencies/>
         </Projects>
-        <Projects Include="Observer\Observer.dproj">
+        <Projects Include="Source\Observer\Observer.dproj">
             <Dependencies/>
         </Projects>
-        <Projects Include="Decorator\Decorator.dproj">
+        <Projects Include="Source\Decorator\Decorator.dproj">
             <Dependencies/>
         </Projects>
-        <Projects Include="FactoryMethod\FactoryMethod.dproj">
+        <Projects Include="Source\FactoryMethod\FactoryMethod.dproj">
             <Dependencies/>
         </Projects>
-        <Projects Include="AbstractFactory\AbstractFactory.dproj">
+        <Projects Include="Source\AbstractFactory\AbstractFactory.dproj">
             <Dependencies/>
         </Projects>
-        <Projects Include="Singleton\Singleton.dproj">
+        <Projects Include="Source\Singleton\Singleton.dproj">
             <Dependencies/>
         </Projects>
-        <Projects Include="Command\Command.dproj">
+        <Projects Include="Source\Command\Command.dproj">
             <Dependencies/>
         </Projects>
-        <Projects Include="Adapter\Adapter.dproj">
+        <Projects Include="Source\Adapter\Adapter.dproj">
             <Dependencies/>
         </Projects>
-        <Projects Include="Facade\Facade.dproj">
+        <Projects Include="Source\Facade\Facade.dproj">
             <Dependencies/>
         </Projects>
     </ItemGroup>
@@ -39,85 +39,85 @@
         </BorlandProject>
     </ProjectExtensions>
     <Target Name="Strategy">
-        <MSBuild Projects="Strategy\Strategy.dproj"/>
+        <MSBuild Projects="Source\Strategy\Strategy.dproj"/>
     </Target>
     <Target Name="Strategy:Clean">
-        <MSBuild Projects="Strategy\Strategy.dproj" Targets="Clean"/>
+        <MSBuild Projects="Source\Strategy\Strategy.dproj" Targets="Clean"/>
     </Target>
     <Target Name="Strategy:Make">
-        <MSBuild Projects="Strategy\Strategy.dproj" Targets="Make"/>
+        <MSBuild Projects="Source\Strategy\Strategy.dproj" Targets="Make"/>
     </Target>
     <Target Name="Observer">
-        <MSBuild Projects="Observer\Observer.dproj"/>
+        <MSBuild Projects="Source\Observer\Observer.dproj"/>
     </Target>
     <Target Name="Observer:Clean">
-        <MSBuild Projects="Observer\Observer.dproj" Targets="Clean"/>
+        <MSBuild Projects="Source\Observer\Observer.dproj" Targets="Clean"/>
     </Target>
     <Target Name="Observer:Make">
-        <MSBuild Projects="Observer\Observer.dproj" Targets="Make"/>
+        <MSBuild Projects="Source\Observer\Observer.dproj" Targets="Make"/>
     </Target>
     <Target Name="Decorator">
-        <MSBuild Projects="Decorator\Decorator.dproj"/>
+        <MSBuild Projects="Source\Decorator\Decorator.dproj"/>
     </Target>
     <Target Name="Decorator:Clean">
-        <MSBuild Projects="Decorator\Decorator.dproj" Targets="Clean"/>
+        <MSBuild Projects="Source\Decorator\Decorator.dproj" Targets="Clean"/>
     </Target>
     <Target Name="Decorator:Make">
-        <MSBuild Projects="Decorator\Decorator.dproj" Targets="Make"/>
+        <MSBuild Projects="Source\Decorator\Decorator.dproj" Targets="Make"/>
     </Target>
     <Target Name="FactoryMethod">
-        <MSBuild Projects="FactoryMethod\FactoryMethod.dproj"/>
+        <MSBuild Projects="Source\FactoryMethod\FactoryMethod.dproj"/>
     </Target>
     <Target Name="FactoryMethod:Clean">
-        <MSBuild Projects="FactoryMethod\FactoryMethod.dproj" Targets="Clean"/>
+        <MSBuild Projects="Source\FactoryMethod\FactoryMethod.dproj" Targets="Clean"/>
     </Target>
     <Target Name="FactoryMethod:Make">
-        <MSBuild Projects="FactoryMethod\FactoryMethod.dproj" Targets="Make"/>
+        <MSBuild Projects="Source\FactoryMethod\FactoryMethod.dproj" Targets="Make"/>
     </Target>
     <Target Name="AbstractFactory">
-        <MSBuild Projects="AbstractFactory\AbstractFactory.dproj"/>
+        <MSBuild Projects="Source\AbstractFactory\AbstractFactory.dproj"/>
     </Target>
     <Target Name="AbstractFactory:Clean">
-        <MSBuild Projects="AbstractFactory\AbstractFactory.dproj" Targets="Clean"/>
+        <MSBuild Projects="Source\AbstractFactory\AbstractFactory.dproj" Targets="Clean"/>
     </Target>
     <Target Name="AbstractFactory:Make">
-        <MSBuild Projects="AbstractFactory\AbstractFactory.dproj" Targets="Make"/>
+        <MSBuild Projects="Source\AbstractFactory\AbstractFactory.dproj" Targets="Make"/>
     </Target>
     <Target Name="Singleton">
-        <MSBuild Projects="Singleton\Singleton.dproj"/>
+        <MSBuild Projects="Source\Singleton\Singleton.dproj"/>
     </Target>
     <Target Name="Singleton:Clean">
-        <MSBuild Projects="Singleton\Singleton.dproj" Targets="Clean"/>
+        <MSBuild Projects="Source\Singleton\Singleton.dproj" Targets="Clean"/>
     </Target>
     <Target Name="Singleton:Make">
-        <MSBuild Projects="Singleton\Singleton.dproj" Targets="Make"/>
+        <MSBuild Projects="Source\Singleton\Singleton.dproj" Targets="Make"/>
     </Target>
     <Target Name="Command">
-        <MSBuild Projects="Command\Command.dproj"/>
+        <MSBuild Projects="Source\Command\Command.dproj"/>
     </Target>
     <Target Name="Command:Clean">
-        <MSBuild Projects="Command\Command.dproj" Targets="Clean"/>
+        <MSBuild Projects="Source\Command\Command.dproj" Targets="Clean"/>
     </Target>
     <Target Name="Command:Make">
-        <MSBuild Projects="Command\Command.dproj" Targets="Make"/>
+        <MSBuild Projects="Source\Command\Command.dproj" Targets="Make"/>
     </Target>
     <Target Name="Adapter">
-        <MSBuild Projects="Adapter\Adapter.dproj"/>
+        <MSBuild Projects="Source\Adapter\Adapter.dproj"/>
     </Target>
     <Target Name="Adapter:Clean">
-        <MSBuild Projects="Adapter\Adapter.dproj" Targets="Clean"/>
+        <MSBuild Projects="Source\Adapter\Adapter.dproj" Targets="Clean"/>
     </Target>
     <Target Name="Adapter:Make">
-        <MSBuild Projects="Adapter\Adapter.dproj" Targets="Make"/>
+        <MSBuild Projects="Source\Adapter\Adapter.dproj" Targets="Make"/>
     </Target>
     <Target Name="Facade">
-        <MSBuild Projects="Facade\Facade.dproj"/>
+        <MSBuild Projects="Source\Facade\Facade.dproj"/>
     </Target>
     <Target Name="Facade:Clean">
-        <MSBuild Projects="Facade\Facade.dproj" Targets="Clean"/>
+        <MSBuild Projects="Source\Facade\Facade.dproj" Targets="Clean"/>
     </Target>
     <Target Name="Facade:Make">
-        <MSBuild Projects="Facade\Facade.dproj" Targets="Make"/>
+        <MSBuild Projects="Source\Facade\Facade.dproj" Targets="Make"/>
     </Target>
     <Target Name="Build">
         <CallTarget Targets="Strategy;Observer;Decorator;FactoryMethod;AbstractFactory;Singleton;Command;Adapter;Facade"/>
