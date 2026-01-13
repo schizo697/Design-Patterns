@@ -30,6 +30,9 @@
         <Projects Include="Source\Facade\Facade.dproj">
             <Dependencies/>
         </Projects>
+        <Projects Include="Source\Proxy\Proxy.dproj">
+            <Dependencies/>
+        </Projects>
     </ItemGroup>
     <ProjectExtensions>
         <Borland.Personality>Default.Personality.12</Borland.Personality>
@@ -119,14 +122,23 @@
     <Target Name="Facade:Make">
         <MSBuild Projects="Source\Facade\Facade.dproj" Targets="Make"/>
     </Target>
+    <Target Name="Proxy">
+        <MSBuild Projects="Source\Proxy\Proxy.dproj"/>
+    </Target>
+    <Target Name="Proxy:Clean">
+        <MSBuild Projects="Source\Proxy\Proxy.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Proxy:Make">
+        <MSBuild Projects="Source\Proxy\Proxy.dproj" Targets="Make"/>
+    </Target>
     <Target Name="Build">
-        <CallTarget Targets="Strategy;Observer;Decorator;FactoryMethod;AbstractFactory;Singleton;Command;Adapter;Facade"/>
+        <CallTarget Targets="Strategy;Observer;Decorator;FactoryMethod;AbstractFactory;Singleton;Command;Adapter;Facade;Proxy"/>
     </Target>
     <Target Name="Clean">
-        <CallTarget Targets="Strategy:Clean;Observer:Clean;Decorator:Clean;FactoryMethod:Clean;AbstractFactory:Clean;Singleton:Clean;Command:Clean;Adapter:Clean;Facade:Clean"/>
+        <CallTarget Targets="Strategy:Clean;Observer:Clean;Decorator:Clean;FactoryMethod:Clean;AbstractFactory:Clean;Singleton:Clean;Command:Clean;Adapter:Clean;Facade:Clean;Proxy:Clean"/>
     </Target>
     <Target Name="Make">
-        <CallTarget Targets="Strategy:Make;Observer:Make;Decorator:Make;FactoryMethod:Make;AbstractFactory:Make;Singleton:Make;Command:Make;Adapter:Make;Facade:Make"/>
+        <CallTarget Targets="Strategy:Make;Observer:Make;Decorator:Make;FactoryMethod:Make;AbstractFactory:Make;Singleton:Make;Command:Make;Adapter:Make;Facade:Make;Proxy:Make"/>
     </Target>
     <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
 </Project>
