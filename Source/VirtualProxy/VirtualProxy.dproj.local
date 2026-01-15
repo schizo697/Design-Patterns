@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
-  <Transactions>
-    <Transaction>2026/01/15 10:40:52.531,C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\VirtualProxy.dproj=C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
-    <Transaction>2026/01/15 10:40:54.737,=C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2026/01/15 10:40:59.795,C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\ProductIntf.pas=C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2026/01/15 10:41:47.793,C:\Users\ASINC-RD008\Documents\GitHub\Design-Patterns\Source\VirtualProxy\ProductIntf.pas=C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\ProductIntf.pas</Transaction>
-    <Transaction>2026/01/15 10:41:53.588,C:\Users\ASINC-RD008\Documents\GitHub\Design-Patterns\Source\VirtualProxy\VirtualProxy.dproj=C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\VirtualProxy.dproj</Transaction>
-    <Transaction>2026/01/15 10:42:06.871,=C:\Users\ASINC-RD008\Documents\GitHub\Design-Patterns\Source\VirtualProxy\Unit1.pas</Transaction>
-    <Transaction>2026/01/15 10:42:11.483,C:\Users\ASINC-RD008\Documents\GitHub\Design-Patterns\Source\VirtualProxy\Product.pas=C:\Users\ASINC-RD008\Documents\GitHub\Design-Patterns\Source\VirtualProxy\Unit1.pas</Transaction>
-    <Transaction>2026/01/15 10:42:43.733,=C:\Users\ASINC-RD008\Documents\GitHub\Design-Patterns\Source\VirtualProxy\Unit1.pas</Transaction>
-    <Transaction>2026/01/15 10:42:50.815,C:\Users\ASINC-RD008\Documents\GitHub\Design-Patterns\Source\VirtualProxy\VirtualProduct.pas=C:\Users\ASINC-RD008\Documents\GitHub\Design-Patterns\Source\VirtualProxy\Unit1.pas</Transaction>
+	<Transactions>
+    <Transaction>2026/01/15 10:40:52.000.531,C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\VirtualProxy.dproj</Transaction>
+    <Transaction>2026/01/15 10:40:54.000.737,=C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2026/01/15 10:40:59.000.795,C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\ProductIntf.pas</Transaction>
+    <Transaction>2026/01/15 10:41:47.000.793,C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\ProductIntf.pas=C:\Users\ASINC-RD008\Documents\GitHub\Design-Patterns\Source\VirtualProxy\ProductIntf.pas</Transaction>
+    <Transaction>2026/01/15 10:41:53.000.588,C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\VirtualProxy.dproj=C:\Users\ASINC-RD008\Documents\GitHub\Design-Patterns\Source\VirtualProxy\VirtualProxy.dproj</Transaction>
+    <Transaction>2026/01/15 10:42:06.000.871,=C:\Users\ASINC-RD008\Documents\GitHub\Design-Patterns\Source\VirtualProxy\Unit1.pas</Transaction>
+    <Transaction>2026/01/15 10:42:11.000.483,C:\Users\ASINC-RD008\Documents\GitHub\Design-Patterns\Source\VirtualProxy\Unit1.pas=C:\Users\ASINC-RD008\Documents\GitHub\Design-Patterns\Source\VirtualProxy\Product.pas</Transaction>
+    <Transaction>2026/01/15 10:42:43.000.733,=C:\Users\ASINC-RD008\Documents\GitHub\Design-Patterns\Source\VirtualProxy\Unit1.pas</Transaction>
+    <Transaction>2026/01/15 10:42:50.000.815,C:\Users\ASINC-RD008\Documents\GitHub\Design-Patterns\Source\VirtualProxy\Unit1.pas=C:\Users\ASINC-RD008\Documents\GitHub\Design-Patterns\Source\VirtualProxy\VirtualProduct.pas</Transaction>
   </Transactions>
 </BorlandProject>

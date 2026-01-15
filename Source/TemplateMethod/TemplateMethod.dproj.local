@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2026/01/15 13:39:52.001,C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\TemplateMethod.dproj=C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2026/01/15 13:40:09.660,C:\Users\ASINC-RD008\Documents\GitHub\Design-Patterns\Source\TemplateMethod\TemplateMethod.dproj=C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\TemplateMethod.dproj</Transaction>
+    <Transaction>2026/01/15 13:40:33.200,=C:\Users\ASINC-RD008\Documents\GitHub\Design-Patterns\Source\TemplateMethod\Unit1.pas</Transaction>
+    <Transaction>2026/01/15 13:41:39.071,C:\Users\ASINC-RD008\Documents\GitHub\Design-Patterns\Source\TemplateMethod\CarRace.pas=C:\Users\ASINC-RD008\Documents\GitHub\Design-Patterns\Source\TemplateMethod\Unit1.pas</Transaction>
+    <Transaction>2026/01/15 13:46:03.111,=C:\Users\ASINC-RD008\Documents\GitHub\Design-Patterns\Source\TemplateMethod\Unit1.pas</Transaction>
+    <Transaction>2026/01/15 13:46:11.601,C:\Users\ASINC-RD008\Documents\GitHub\Design-Patterns\Source\TemplateMethod\Nissan.pas=C:\Users\ASINC-RD008\Documents\GitHub\Design-Patterns\Source\TemplateMethod\Unit1.pas</Transaction>
+    <Transaction>2026/01/15 13:48:34.455,=C:\Users\ASINC-RD008\Documents\GitHub\Design-Patterns\Source\TemplateMethod\Unit1.pas</Transaction>
+    <Transaction>2026/01/15 13:48:40.451,C:\Users\ASINC-RD008\Documents\GitHub\Design-Patterns\Source\TemplateMethod\Toyota.pas=C:\Users\ASINC-RD008\Documents\GitHub\Design-Patterns\Source\TemplateMethod\Unit1.pas</Transaction>
+    <Transaction>2026/01/15 13:49:58.792,=C:\Users\ASINC-RD008\Documents\GitHub\Design-Patterns\Source\TemplateMethod\Unit1.pas</Transaction>
+    <Transaction>2026/01/15 13:50:08.231,C:\Users\ASINC-RD008\Documents\GitHub\Design-Patterns\Source\TemplateMethod\Honda.pas=C:\Users\ASINC-RD008\Documents\GitHub\Design-Patterns\Source\TemplateMethod\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>
