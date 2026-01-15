@@ -30,7 +30,10 @@
         <Projects Include="Source\Facade\Facade.dproj">
             <Dependencies/>
         </Projects>
-        <Projects Include="Source\Proxy\Proxy.dproj">
+        <Projects Include="Source\RemoteProxy\RemoteProxy.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Source\VirtualProxy\VirtualProxy.dproj">
             <Dependencies/>
         </Projects>
     </ItemGroup>
@@ -122,23 +125,32 @@
     <Target Name="Facade:Make">
         <MSBuild Projects="Source\Facade\Facade.dproj" Targets="Make"/>
     </Target>
-    <Target Name="Proxy">
-        <MSBuild Projects="Source\Proxy\Proxy.dproj"/>
+    <Target Name="RemoteProxy">
+        <MSBuild Projects="Source\RemoteProxy\RemoteProxy.dproj"/>
     </Target>
-    <Target Name="Proxy:Clean">
-        <MSBuild Projects="Source\Proxy\Proxy.dproj" Targets="Clean"/>
+    <Target Name="RemoteProxy:Clean">
+        <MSBuild Projects="Source\RemoteProxy\RemoteProxy.dproj" Targets="Clean"/>
     </Target>
-    <Target Name="Proxy:Make">
-        <MSBuild Projects="Source\Proxy\Proxy.dproj" Targets="Make"/>
+    <Target Name="RemoteProxy:Make">
+        <MSBuild Projects="Source\RemoteProxy\RemoteProxy.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="VirtualProxy">
+        <MSBuild Projects="Source\VirtualProxy\VirtualProxy.dproj"/>
+    </Target>
+    <Target Name="VirtualProxy:Clean">
+        <MSBuild Projects="Source\VirtualProxy\VirtualProxy.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="VirtualProxy:Make">
+        <MSBuild Projects="Source\VirtualProxy\VirtualProxy.dproj" Targets="Make"/>
     </Target>
     <Target Name="Build">
-        <CallTarget Targets="Strategy;Observer;Decorator;FactoryMethod;AbstractFactory;Singleton;Command;Adapter;Facade;Proxy"/>
+        <CallTarget Targets="Strategy;Observer;Decorator;FactoryMethod;AbstractFactory;Singleton;Command;Adapter;Facade;RemoteProxy;VirtualProxy"/>
     </Target>
     <Target Name="Clean">
-        <CallTarget Targets="Strategy:Clean;Observer:Clean;Decorator:Clean;FactoryMethod:Clean;AbstractFactory:Clean;Singleton:Clean;Command:Clean;Adapter:Clean;Facade:Clean;Proxy:Clean"/>
+        <CallTarget Targets="Strategy:Clean;Observer:Clean;Decorator:Clean;FactoryMethod:Clean;AbstractFactory:Clean;Singleton:Clean;Command:Clean;Adapter:Clean;Facade:Clean;RemoteProxy:Clean;VirtualProxy:Clean"/>
     </Target>
     <Target Name="Make">
-        <CallTarget Targets="Strategy:Make;Observer:Make;Decorator:Make;FactoryMethod:Make;AbstractFactory:Make;Singleton:Make;Command:Make;Adapter:Make;Facade:Make;Proxy:Make"/>
+        <CallTarget Targets="Strategy:Make;Observer:Make;Decorator:Make;FactoryMethod:Make;AbstractFactory:Make;Singleton:Make;Command:Make;Adapter:Make;Facade:Make;RemoteProxy:Make;VirtualProxy:Make"/>
     </Target>
     <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
 </Project>
