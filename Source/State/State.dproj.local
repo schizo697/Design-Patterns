@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2026/01/16 13:58:04.307,C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\State.dproj=C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2026/01/16 13:58:06.749,=C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2026/01/16 13:58:11.371,C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\TrafficLightIntf.pas=C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2026/01/16 13:58:59.454,C:\Users\ASINC-RD008\Documents\GitHub\Design-Patterns\Source\State\TrafficLightIntf.pas=C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\TrafficLightIntf.pas</Transaction>
+    <Transaction>2026/01/16 13:59:01.539,C:\Users\ASINC-RD008\Documents\GitHub\Design-Patterns\Source\State\State.dproj=C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\State.dproj</Transaction>
+    <Transaction>2026/01/16 13:59:36.052,=C:\Users\ASINC-RD008\Documents\GitHub\Design-Patterns\Source\State\Unit1.pas</Transaction>
+    <Transaction>2026/01/16 13:59:39.019,C:\Users\ASINC-RD008\Documents\GitHub\Design-Patterns\Source\State\Car.pas=C:\Users\ASINC-RD008\Documents\GitHub\Design-Patterns\Source\State\Unit1.pas</Transaction>
+    <Transaction>2026/01/16 14:01:42.080,=C:\Users\ASINC-RD008\Documents\GitHub\Design-Patterns\Source\State\Unit1.pas</Transaction>
+    <Transaction>2026/01/16 14:01:47.396,C:\Users\ASINC-RD008\Documents\GitHub\Design-Patterns\Source\State\States.pas=C:\Users\ASINC-RD008\Documents\GitHub\Design-Patterns\Source\State\Unit1.pas</Transaction>
+    <Transaction>2026/01/16 14:02:55.692,C:\Users\ASINC-RD008\Documents\GitHub\Design-Patterns\Source\State\StopSTate.pas=C:\Users\ASINC-RD008\Documents\GitHub\Design-Patterns\Source\State\States.pas</Transaction>
+    <Transaction>2026/01/16 14:03:01.418,C:\Users\ASINC-RD008\Documents\GitHub\Design-Patterns\Source\State\asd.pas=C:\Users\ASINC-RD008\Documents\GitHub\Design-Patterns\Source\State\StopSTate.pas</Transaction>
+    <Transaction>2026/01/16 14:03:03.793,C:\Users\ASINC-RD008\Documents\GitHub\Design-Patterns\Source\State\StopState.pas=C:\Users\ASINC-RD008\Documents\GitHub\Design-Patterns\Source\State\asd.pas</Transaction>
+    <Transaction>2026/01/16 14:03:34.768,=C:\Users\ASINC-RD008\Documents\GitHub\Design-Patterns\Source\State\Unit1.pas</Transaction>
+    <Transaction>2026/01/16 14:03:38.569,C:\Users\ASINC-RD008\Documents\GitHub\Design-Patterns\Source\State\SlowDownState.pas=C:\Users\ASINC-RD008\Documents\GitHub\Design-Patterns\Source\State\Unit1.pas</Transaction>
+    <Transaction>2026/01/16 14:04:17.829,=C:\Users\ASINC-RD008\Documents\GitHub\Design-Patterns\Source\State\Unit1.pas</Transaction>
+    <Transaction>2026/01/16 14:04:21.874,C:\Users\ASINC-RD008\Documents\GitHub\Design-Patterns\Source\State\GoBoomState.pas=C:\Users\ASINC-RD008\Documents\GitHub\Design-Patterns\Source\State\Unit1.pas</Transaction>
+    <Transaction>2026/01/16 14:17:43.546,C:\Users\ASINC-RD008\Documents\GitHub\Design-Patterns\Source\State\GoState.pas=C:\Users\ASINC-RD008\Documents\GitHub\Design-Patterns\Source\State\GoBoomState.pas</Transaction>
+    <Transaction>2026/01/16 14:18:49.181,=C:\Users\ASINC-RD008\Documents\GitHub\Design-Patterns\Source\State\Unit1.pas</Transaction>
+    <Transaction>2026/01/16 14:18:55.678,C:\Users\ASINC-RD008\Documents\GitHub\Design-Patterns\Source\State\TrafficLight.pas=C:\Users\ASINC-RD008\Documents\GitHub\Design-Patterns\Source\State\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>
