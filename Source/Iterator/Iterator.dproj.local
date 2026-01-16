@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2026/01/16 08:39:11.176,C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\Iterator.dproj=C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2026/01/16 08:39:12.619,=C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2026/01/16 08:39:33.010,C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\Car.pas=C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2026/01/16 08:41:02.541,C:\Users\ASINC-RD008\Documents\GitHub\Design-Patterns\Source\Iterator\Car.pas=C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\Car.pas</Transaction>
+    <Transaction>2026/01/16 08:41:08.676,C:\Users\ASINC-RD008\Documents\GitHub\Design-Patterns\Source\Iterator\Iterator.dproj=C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\Iterator.dproj</Transaction>
+    <Transaction>2026/01/16 08:41:17.160,=C:\Users\ASINC-RD008\Documents\GitHub\Design-Patterns\Source\Iterator\Unit1.pas</Transaction>
+    <Transaction>2026/01/16 08:41:20.998,C:\Users\ASINC-RD008\Documents\GitHub\Design-Patterns\Source\Iterator\CarIntf.pas=C:\Users\ASINC-RD008\Documents\GitHub\Design-Patterns\Source\Iterator\Unit1.pas</Transaction>
+    <Transaction>2026/01/16 08:42:50.825,=C:\Users\ASINC-RD008\Documents\GitHub\Design-Patterns\Source\Iterator\Unit1.pas</Transaction>
+    <Transaction>2026/01/16 08:42:56.222,C:\Users\ASINC-RD008\Documents\GitHub\Design-Patterns\Source\Iterator\NissanGarage.pas=C:\Users\ASINC-RD008\Documents\GitHub\Design-Patterns\Source\Iterator\Unit1.pas</Transaction>
+    <Transaction>2026/01/16 08:43:30.807,=C:\Users\ASINC-RD008\Documents\GitHub\Design-Patterns\Source\Iterator\Unit1.pas</Transaction>
+    <Transaction>2026/01/16 08:43:36.537,C:\Users\ASINC-RD008\Documents\GitHub\Design-Patterns\Source\Iterator\ToyotaGarage.pas=C:\Users\ASINC-RD008\Documents\GitHub\Design-Patterns\Source\Iterator\Unit1.pas</Transaction>
+  </Transactions>
+  <ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="Car.pas"/>
+    <File Path="CarIntf.pas"/>
+    <File Path="NissanGarage.pas"/>
+    <File Path="ToyotaGarage.pas"/>
+  </ProjectSortOrder>
+</BorlandProject>
