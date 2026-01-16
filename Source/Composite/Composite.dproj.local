@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2026/01/16 11:22:16.000.784,C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\Composite.dproj</Transaction>
+    <Transaction>2026/01/16 11:22:31.000.472,C:\Users\ASINC-RD008\Documents\Embarcadero\Studio\Projects\Composite.dproj=C:\Users\ASINC-RD008\Documents\GitHub\Design-Patterns\Source\Composite\Composite.dproj</Transaction>
+    <Transaction>2026/01/16 11:23:03.000.268,=C:\Users\ASINC-RD008\Documents\GitHub\Design-Patterns\Source\Composite\Unit1.pas</Transaction>
+    <Transaction>2026/01/16 11:23:10.000.238,C:\Users\ASINC-RD008\Documents\GitHub\Design-Patterns\Source\Composite\Unit1.pas=C:\Users\ASINC-RD008\Documents\GitHub\Design-Patterns\Source\Composite\CarIntf.pas</Transaction>
+    <Transaction>2026/01/16 11:23:30.000.886,=C:\Users\ASINC-RD008\Documents\GitHub\Design-Patterns\Source\Composite\Unit1.pas</Transaction>
+    <Transaction>2026/01/16 11:23:37.000.297,C:\Users\ASINC-RD008\Documents\GitHub\Design-Patterns\Source\Composite\Unit1.pas=C:\Users\ASINC-RD008\Documents\GitHub\Design-Patterns\Source\Composite\Car.pas</Transaction>
+    <Transaction>2026/01/16 11:24:11.000.274,=C:\Users\ASINC-RD008\Documents\GitHub\Design-Patterns\Source\Composite\Unit1.pas</Transaction>
+    <Transaction>2026/01/16 11:24:18.000.377,C:\Users\ASINC-RD008\Documents\GitHub\Design-Patterns\Source\Composite\Unit1.pas=C:\Users\ASINC-RD008\Documents\GitHub\Design-Patterns\Source\Composite\CarGarage.pas</Transaction>
+    <Transaction>2026/01/16 11:26:33.000.723,=C:\Users\ASINC-RD008\Documents\GitHub\Design-Patterns\Source\Composite\Unit1.pas</Transaction>
+    <Transaction>2026/01/16 11:26:37.000.947,C:\Users\ASINC-RD008\Documents\GitHub\Design-Patterns\Source\Composite\Unit1.pas=C:\Users\ASINC-RD008\Documents\GitHub\Design-Patterns\Source\Composite\NissanGarage.pas</Transaction>
+    <Transaction>2026/01/16 11:27:59.000.478,=C:\Users\ASINC-RD008\Documents\GitHub\Design-Patterns\Source\Composite\Unit1.pas</Transaction>
+    <Transaction>2026/01/16 11:28:03.000.435,C:\Users\ASINC-RD008\Documents\GitHub\Design-Patterns\Source\Composite\Unit1.pas=C:\Users\ASINC-RD008\Documents\GitHub\Design-Patterns\Source\Composite\ToyotaGarage.pas</Transaction>
+  </Transactions>
+</BorlandProject>

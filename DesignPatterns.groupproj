@@ -42,6 +42,9 @@
         <Projects Include="Source\Iterator\Iterator.dproj">
             <Dependencies/>
         </Projects>
+        <Projects Include="Source\Composite\Composite.dproj">
+            <Dependencies/>
+        </Projects>
     </ItemGroup>
     <ProjectExtensions>
         <Borland.Personality>Default.Personality.12</Borland.Personality>
@@ -167,14 +170,23 @@
     <Target Name="Iterator:Make">
         <MSBuild Projects="Source\Iterator\Iterator.dproj" Targets="Make"/>
     </Target>
+    <Target Name="Composite">
+        <MSBuild Projects="Source\Composite\Composite.dproj"/>
+    </Target>
+    <Target Name="Composite:Clean">
+        <MSBuild Projects="Source\Composite\Composite.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Composite:Make">
+        <MSBuild Projects="Source\Composite\Composite.dproj" Targets="Make"/>
+    </Target>
     <Target Name="Build">
-        <CallTarget Targets="Strategy;Observer;Decorator;FactoryMethod;AbstractFactory;Singleton;Command;Adapter;Facade;RemoteProxy;VirtualProxy;TemplateMethod;Iterator"/>
+        <CallTarget Targets="Strategy;Observer;Decorator;FactoryMethod;AbstractFactory;Singleton;Command;Adapter;Facade;RemoteProxy;VirtualProxy;TemplateMethod;Iterator;Composite"/>
     </Target>
     <Target Name="Clean">
-        <CallTarget Targets="Strategy:Clean;Observer:Clean;Decorator:Clean;FactoryMethod:Clean;AbstractFactory:Clean;Singleton:Clean;Command:Clean;Adapter:Clean;Facade:Clean;RemoteProxy:Clean;VirtualProxy:Clean;TemplateMethod:Clean;Iterator:Clean"/>
+        <CallTarget Targets="Strategy:Clean;Observer:Clean;Decorator:Clean;FactoryMethod:Clean;AbstractFactory:Clean;Singleton:Clean;Command:Clean;Adapter:Clean;Facade:Clean;RemoteProxy:Clean;VirtualProxy:Clean;TemplateMethod:Clean;Iterator:Clean;Composite:Clean"/>
     </Target>
     <Target Name="Make">
-        <CallTarget Targets="Strategy:Make;Observer:Make;Decorator:Make;FactoryMethod:Make;AbstractFactory:Make;Singleton:Make;Command:Make;Adapter:Make;Facade:Make;RemoteProxy:Make;VirtualProxy:Make;TemplateMethod:Make;Iterator:Make"/>
+        <CallTarget Targets="Strategy:Make;Observer:Make;Decorator:Make;FactoryMethod:Make;AbstractFactory:Make;Singleton:Make;Command:Make;Adapter:Make;Facade:Make;RemoteProxy:Make;VirtualProxy:Make;TemplateMethod:Make;Iterator:Make;Composite:Make"/>
     </Target>
     <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
 </Project>
