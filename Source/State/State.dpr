@@ -6,104 +6,76 @@ program State;
 
 uses
   System.SysUtils,
-  TrafficLightIntf in 'TrafficLightIntf.pas',
-  Car in 'Car.pas',
-  StopState in 'StopState.pas',
-  SlowDownState in 'SlowDownState.pas',
-  GoState in 'GoState.pas',
-  TrafficLight in 'TrafficLight.pas';
-
-procedure ShowMenu;
-begin
-  WriteLn;
-  WriteLn('=== Traffic Light Control ===');
-  WriteLn('1. Change to RED');
-  WriteLn('2. Change to GREEN');
-  WriteLn('3. Change to ORANGE');
-  WriteLn('4. Show Current Status');
-  WriteLn('0. Exit');
-  Write('Enter your choice: ');
-end;
-
-procedure ShowCurrentStatus(Light: TTrafficLight; MyCar: TCar);
-begin
-  WriteLn;
-  WriteLn('--- Current Status ---');
-  WriteLn('Traffic Light: ', Light.GetCurrentColor);
-  WriteLn('Car Status: ', MyCar.GetStatus);
-  WriteLn('---------------------');
-end;
+  GunState in 'GunState.pas',
+  NoAmmoState in 'NoAmmoState.pas',
+  ReadyState in 'ReadyState.pas',
+  FiringState in 'FiringState.pas',
+  ReloadingState in 'ReloadingState.pas';
 
 var
-  Light: TTrafficLight;
-  MyCar: TCar;
-  Choice: string;
-  ChoiceNum: Integer;
+  MyGun: TGun;
+  UserInput: string;
+  ShotsFired: Integer;
 
 begin
   try
-    Light := TTrafficLight.Create;
-    MyCar := TCar.Create;
+    MyGun := TGun.Create(3);
     try
-      WriteLn('=== Traffic Light ===');
+      ShotsFired := 0;
+      WriteLn('=== Gun Firing Simulator ===');
+      WriteLn('Commands: F = Fire, Q = Quit');
+      WriteLn('Magazine capacity: 3 rounds');
+      WriteLn('Auto-reload enabled');
+      WriteLn('=============================');
+      WriteLn;
 
-      ShowCurrentStatus(Light, MyCar);
+      while True do
+      begin
+        WriteLn(Format('Status: %s | Ammo: %d/3 | Total Shots: %d',
+          [MyGun.GetStateName, MyGun.GetAmmoCount, ShotsFired]));
+        Write('> ');
+        ReadLn(UserInput);
+        UserInput := UpperCase(Trim(UserInput));
 
-      repeat
-        ShowMenu;
-        ReadLn(Choice);
-
-        if not TryStrToInt(Choice, ChoiceNum) then
+        if UserInput = 'Q' then
         begin
-          WriteLn('Invalid input! Please enter a number.');
-          Continue;
-        end;
+          WriteLn('Exiting simulator...');
+          Break;
+        end
+        else if UserInput = 'F' then
+        begin
+          WriteLn;
 
-        case ChoiceNum of
-          1: begin
-               Light.ChangeToRed;
-               Light.ApplyToCar(MyCar);
-               WriteLn;
-               WriteLn('>> Traffic light changed to RED');
-               ShowCurrentStatus(Light, MyCar);
-             end;
+          if MyGun.GetAmmoCount = 0 then
+          begin
+            WriteLn('--- AUTO-RELOAD ---');
+            MyGun.Reload;
+            MyGun.Release;
+            WriteLn('-------------------');
+            WriteLn;
+          end;
 
-          2: begin
-               Light.ChangeToGreen;
-               Light.ApplyToCar(MyCar);
-               WriteLn;
-               WriteLn('>> Traffic light changed to GREEN');
-               ShowCurrentStatus(Light, MyCar);
-             end;
+          MyGun.Pull;
+          MyGun.Release;
 
-          3: begin
-               Light.ChangeToOrange;
-               Light.ApplyToCar(MyCar);
-               WriteLn;
-               WriteLn('>> Traffic light changed to ORANGE');
-               ShowCurrentStatus(Light, MyCar);
-             end;
+          if MyGun.GetStateName <> 'No Ammo' then
+            Inc(ShotsFired);
 
-          4: begin
-               ShowCurrentStatus(Light, MyCar);
-             end;
-
-          0: begin
-               WriteLn;
-               WriteLn('Exiting program. Goodbye!');
-             end;
-
+          WriteLn;
+        end
         else
-          WriteLn('Invalid choice! Please select 0-4.');
+        begin
+          WriteLn('Invalid command! Use F to fire or Q to quit.');
+          WriteLn;
         end;
+      end;
 
-      until ChoiceNum = 0;
+      WriteLn;
+      WriteLn(Format('Session ended. Total shots fired: %d', [ShotsFired]));
 
     finally
-      MyCar.Free;
-      Light.Free;
+      MyGun.Free;
     end;
-
   except
     on E: Exception do
       WriteLn(E.ClassName, ': ', E.Message);
